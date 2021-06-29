@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body style="margin: 100px;">
+<center><h1 style="color: orange">side-image</h1></center>
+<center>
+<img onclick="myFunction1()" style="border-radius: 20px;" id="myImg1" src="./images/slideshow_1.jpg" width="500px" height="400px">
+
+<img onclick="myFunction2()" style="border-radius: 20px;" id="myImg2" src="./images/slideshow_2.jpg" width="50px" height="400px">
+
+<img onclick="myFunction3()" style="border-radius: 20px;" id="myImg3" src="./images/slideshow_3.jpg" width="50px" height="400px">
+
+<img onclick="myFunction4()" style="border-radius: 20px;" id="myImg4" src="./images/slideshow_4.jpg" width="50px" height="400px">
+</center>
+
+
+
+<script>
+function myFunction1() {
+  document.getElementById("myImg1").width = "500";
+    document.getElementById("myImg2").width = "50";
+      document.getElementById("myImg3").width = "50";
+        document.getElementById("myImg4").width = "50";
+
+}
+function myFunction2() {
+document.getElementById("myImg1").width = "50";
+    document.getElementById("myImg2").width = "500";
+      document.getElementById("myImg3").width = "50";
+        document.getElementById("myImg4").width = "50";
+}
+function myFunction3() {
+document.getElementById("myImg1").width = "50";
+    document.getElementById("myImg2").width = "50";
+      document.getElementById("myImg3").width = "500";
+        document.getElementById("myImg4").width = "50";
+}
+function myFunction4() {
+document.getElementById("myImg1").width = "50";
+    document.getElementById("myImg2").width = "50";
+      document.getElementById("myImg3").width = "50";
+        document.getElementById("myImg4").width = "500";
+}
+</script>
+
+</body>
+</html>
